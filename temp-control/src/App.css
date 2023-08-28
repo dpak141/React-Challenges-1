@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+  background: #87b765;
+  height: 500px;
+  width: 450px;
+  border-radius: 20px;
+  padding: 20px;
+
+}
+
+.card h1 {
+  text-align: center;
+  font-size: 3rem;
+
+}
+
+.card__circle {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background-color: red;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(184, 184, 184);
+  margin: 0 auto;
+  font-size: 3.5rem;
+  border: 10px solid whitesmoke
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.btnAdd,
+.btnSub {
+  border-radius: 50%;
+  box-shadow: 0 0 2px darkslategray;
+  transform: translateY(2px);
+  width: 4.5rem;
+  height: 4.5rem;
+  font-size: 3rem;
+  cursor: pointer;
+
+}
+
+.hot {
+  background-color: rgb(182, 67, 67);
+}
+
+.cold {
+  background-color: rgb(85, 192, 241);
+}
